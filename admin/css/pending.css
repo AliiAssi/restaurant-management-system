@@ -1,0 +1,103 @@
+/* Reset default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Button container styles */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Button styles */
+  .button1 {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    background: linear-gradient(45deg, #007bff, #00bfff);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .button1:hover {
+    text-decoration: none;
+    color:white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Icon styles */
+  .button1-icon {
+    margin-left: 8px;
+    font-size: 20px;
+  }
+  
+
+  .buttonn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    background: linear-gradient(45deg, #ff0000, #ff6347);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .buttonn:hover {
+    text-decoration: none;
+    color:white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Icon styles */
+  .buttonn-icon {
+    margin-left: 8px;
+    font-size: 20px;
+  }
+
+  /* Reset default heading styles */
+h5 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Main heading styles */
+  .modal-title {
+    text-align: center;
+    color: #c0c0c0; /* Customize the color to your preference */
+  }
+  
+  /* Customer name styles */
+  .customer_name {  
+    display: inline-block;
+    padding: 2px 6px;
+    color:blue; /* Customize the color to your preference */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Customer name hover effect */
+  .customer_name:hover {
+    background-color: #0056b3; /* Customize the hover color to your preference */
+  }
+  
+  
+

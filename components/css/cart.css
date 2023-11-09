@@ -1,0 +1,89 @@
+.img-cart {
+    display: block;
+    max-width: 100%;;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tr td{
+    border:1px solid #FFFFFF;    
+}
+
+table tr th {
+    background:#808080;
+    color:white;    
+    width:100%;
+}
+
+
+body{
+	background: #e2eaef;
+}
+.panel-body{
+    background:white;    
+}
+.container{
+    margin-right:20%;
+}
+/* Styles for the "btn1" class */
+.btn1 {
+  /* Customize the button appearance */
+  background: linear-gradient(to bottom, #7CFC00, #008000);
+  border: none;
+  padding: 12px 24px;
+  color: #ffffff;
+  margin-bottom:30%;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-left:28%;
+
+}
+
+/* Hover effect */
+.btn1:hover {
+  background: linear-gradient(to bottom, #45a049, #4CAF50);
+  padding: 12px 15px;
+  text-decoration: none;
+
+}
+
+/* Active (clicked) effect */
+.btn1:active {
+  background: linear-gradient(to bottom, #4CAF50, #45a049);
+  text-decoration: none;
+}
+.btn2 {
+  /* Customize the button appearance */
+  background: linear-gradient(to bottom, #00BFFF, #0000FF);
+  border: none;
+  padding: 12px 24px;
+  color: #ffffff;
+  font-size: 16px;
+  margin:0%;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-left:26%;
+
+}
+
+/* Hover effect */
+.btn2:hover {
+    padding: 12px 15px;
+    color:white;
+    text-decoration: none;
+}
+
+/* Active (clicked) effect */
+.btn2:active {
+  text-decoration: none;
+    color:white;
+}

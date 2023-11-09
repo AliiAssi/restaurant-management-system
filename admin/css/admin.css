@@ -1,0 +1,43 @@
+.box-container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #f9f9f9, #e2eaef);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.box-container:hover {
+    transform: scale(1.05);
+}
+
+.box-container .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.box-container .number {
+    font-size: 36px;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.box-container .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.box-container .button:hover {
+    background-color: #0056b3;
+}
